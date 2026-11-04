@@ -1,0 +1,348 @@
+{
+  "subjects": [
+    {
+      "_id": "sub-cs-101",
+      "name": "Data Structures & Algorithms",
+      "color": "#6366f1",
+      "examDate": "2026-11-17"
+    },
+    {
+      "_id": "sub-cs-102",
+      "name": "Database Management Systems",
+      "color": "#10b981",
+      "examDate": "2026-11-24"
+    },
+    {
+      "_id": "sub-cs-103",
+      "name": "Computer Networks",
+      "color": "#f59e0b",
+      "examDate": "2026-12-02"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "tsk-01",
+      "title": "Review AVL Tree balance factor rotations",
+      "type": "study",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-01",
+      "dueDate": "2026-11-04",
+      "scheduledDate": "2026-11-03",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "_id": "tsk-02",
+      "title": "SQL Normalization 3NF Practice Exercise",
+      "type": "assignment",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-02",
+      "dueDate": "2026-11-04",
+      "scheduledDate": "2026-11-03",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "_id": "tsk-03",
+      "title": "OSI 7-Layer Protocol Model Deep Dive",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-03",
+      "dueDate": "2026-11-05",
+      "scheduledDate": "2026-11-04",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "_id": "tsk-04",
+      "title": "B-Tree & B+ Tree indexing comparison",
+      "type": "study",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-04",
+      "dueDate": "2026-11-06",
+      "scheduledDate": "2026-11-04",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "_id": "tsk-05",
+      "title": "Implement Dijkstra shortest path algorithm in Python",
+      "type": "assignment",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-05",
+      "dueDate": "2026-11-06",
+      "scheduledDate": "2026-11-05",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-06",
+      "title": "ACID properties & Transaction Isolation levels review",
+      "type": "study",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-06",
+      "dueDate": "2026-11-07",
+      "scheduledDate": "2026-11-05",
+      "priority": "medium",
+      "completed": true
+    },
+    {
+      "_id": "tsk-07",
+      "title": "TCP 3-Way Handshake & Flow Control Wireshark analysis",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-07",
+      "dueDate": "2026-11-08",
+      "scheduledDate": "2026-11-05",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-08",
+      "title": "Graph Traversals: BFS vs DFS cycle detection",
+      "type": "study",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-08",
+      "dueDate": "2026-11-09",
+      "scheduledDate": "2026-11-05",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "_id": "tsk-09",
+      "title": "ER Diagram to Relational Schema mapping assignment",
+      "type": "assignment",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-09",
+      "dueDate": "2026-11-07",
+      "scheduledDate": "2026-11-06",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-10",
+      "title": "Subnetting and CIDR notation exercises",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-10",
+      "dueDate": "2026-11-08",
+      "scheduledDate": "2026-11-06",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-11",
+      "title": "Heap Sort & Priority Queues implementation",
+      "type": "study",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-11",
+      "dueDate": "2026-11-09",
+      "scheduledDate": "2026-11-07",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-12",
+      "title": "Query Optimization & EXPLAIN plan reading",
+      "type": "study",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-12",
+      "dueDate": "2026-11-10",
+      "scheduledDate": "2026-11-07",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-13",
+      "title": "DNS Resolution & HTTP/2 vs HTTP/3 protocols",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-13",
+      "dueDate": "2026-11-11",
+      "scheduledDate": "2026-11-08",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "_id": "tsk-14",
+      "title": "Dynamic Programming: 0/1 Knapsack & Coin Change",
+      "type": "assignment",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-14",
+      "dueDate": "2026-11-10",
+      "scheduledDate": "2026-11-08",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-15",
+      "title": "NoSQL vs RDBMS trade-off analysis report",
+      "type": "assignment",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-15",
+      "dueDate": "2026-11-12",
+      "scheduledDate": "2026-11-09",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-16",
+      "title": "Routing Protocols: OSPF vs BGP vector routing",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-16",
+      "dueDate": "2026-11-13",
+      "scheduledDate": "2026-11-10",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-17",
+      "title": "Trie Data Structure & Autocomplete system design",
+      "type": "study",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-17",
+      "dueDate": "2026-11-13",
+      "scheduledDate": "2026-11-11",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "_id": "tsk-18",
+      "title": "Database Concurrency: Two-Phase Locking (2PL)",
+      "type": "study",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-18",
+      "dueDate": "2026-11-14",
+      "scheduledDate": "2026-11-12",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-19",
+      "title": "Network Security: TLS handshake & Symmetric encryption",
+      "type": "study",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-19",
+      "dueDate": "2026-11-16",
+      "scheduledDate": "2026-11-13",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-20",
+      "title": "Union-Find & Kruskal Minimum Spanning Tree",
+      "type": "study",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-20",
+      "dueDate": "2026-11-16",
+      "scheduledDate": "2026-11-14",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-21",
+      "title": "Midterm Comprehensive Practice Exam (DSA)",
+      "type": "exam",
+      "subjectId": "sub-cs-101",
+      "topicId": "top-21",
+      "dueDate": "2026-11-17",
+      "scheduledDate": "2026-11-17",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-22",
+      "title": "Distributed Transactions & 2PC commit protocol",
+      "type": "study",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-22",
+      "dueDate": "2026-11-19",
+      "scheduledDate": "2026-11-18",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "_id": "tsk-23",
+      "title": "Midterm Practice Mock Exam (DBMS)",
+      "type": "exam",
+      "subjectId": "sub-cs-102",
+      "topicId": "top-23",
+      "dueDate": "2026-11-24",
+      "scheduledDate": "2026-11-19",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-24",
+      "title": "Socket Programming Client-Server Lab Submission",
+      "type": "assignment",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-24",
+      "dueDate": "2026-11-19",
+      "scheduledDate": "2026-11-19",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "_id": "tsk-25",
+      "title": "Computer Networks Comprehensive Exam Preparation",
+      "type": "exam",
+      "subjectId": "sub-cs-103",
+      "topicId": "top-25",
+      "dueDate": "2026-12-02",
+      "scheduledDate": "2026-11-19",
+      "priority": "high",
+      "completed": false
+    }
+  ],
+  "sessions": [
+    { "_id": "ses-01", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 50, "date": "2026-10-16" },
+    { "_id": "ses-02", "taskId": "tsk-02", "subjectId": "sub-cs-102", "durationMin": 25, "date": "2026-10-17" },
+    { "_id": "ses-03", "taskId": "tsk-03", "subjectId": "sub-cs-103", "durationMin": 50, "date": "2026-10-18" },
+    { "_id": "ses-04", "taskId": "tsk-04", "subjectId": "sub-cs-102", "durationMin": 75, "date": "2026-10-19" },
+    { "_id": "ses-05", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 50, "date": "2026-10-20" },
+    { "_id": "ses-06", "taskId": "tsk-03", "subjectId": "sub-cs-103", "durationMin": 25, "date": "2026-10-21" },
+    { "_id": "ses-07", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 75, "date": "2026-10-22" },
+    { "_id": "ses-08", "taskId": "tsk-02", "subjectId": "sub-cs-102", "durationMin": 50, "date": "2026-10-23" },
+    { "_id": "ses-09", "taskId": "tsk-03", "subjectId": "sub-cs-103", "durationMin": 50, "date": "2026-10-24" },
+    { "_id": "ses-10", "taskId": "tsk-04", "subjectId": "sub-cs-102", "durationMin": 75, "date": "2026-10-25" },
+    { "_id": "ses-11", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 50, "date": "2026-10-26" },
+    { "_id": "ses-12", "taskId": "tsk-03", "subjectId": "sub-cs-103", "durationMin": 50, "date": "2026-10-27" },
+    { "_id": "ses-13", "taskId": "tsk-02", "subjectId": "sub-cs-102", "durationMin": 25, "date": "2026-10-28" },
+    { "_id": "ses-14", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 75, "date": "2026-10-30" },
+    { "_id": "ses-15", "taskId": "tsk-02", "subjectId": "sub-cs-102", "durationMin": 50, "date": "2026-10-31" },
+    { "_id": "ses-16", "taskId": "tsk-03", "subjectId": "sub-cs-103", "durationMin": 50, "date": "2026-11-01" },
+    { "_id": "ses-17", "taskId": "tsk-04", "subjectId": "sub-cs-102", "durationMin": 100, "date": "2026-11-02" },
+    { "_id": "ses-18", "taskId": "tsk-01", "subjectId": "sub-cs-101", "durationMin": 75, "date": "2026-11-03" },
+    { "_id": "ses-19", "taskId": "tsk-04", "subjectId": "sub-cs-102", "durationMin": 50, "date": "2026-11-04" },
+    { "_id": "ses-20", "taskId": "tsk-06", "subjectId": "sub-cs-102", "durationMin": 50, "date": "2026-11-05" }
+  ],
+  "analyticsSummary": {
+    "hoursPerSubject": [
+      { "subjectId": "sub-cs-101", "name": "Data Structures & Algorithms", "color": "#6366f1", "hours": 14.5 },
+      { "subjectId": "sub-cs-102", "name": "Database Management Systems", "color": "#10b981", "hours": 11.0 },
+      { "subjectId": "sub-cs-103", "name": "Computer Networks", "color": "#f59e0b", "hours": 7.5 }
+    ],
+    "weeklyConsistency": [
+      { "date": "2026-10-30", "minutes": 75, "day": "Mon" },
+      { "date": "2026-10-31", "minutes": 50, "day": "Tue" },
+      { "date": "2026-11-01", "minutes": 50, "day": "Wed" },
+      { "date": "2026-11-02", "minutes": 100, "day": "Thu" },
+      { "date": "2026-11-03", "minutes": 75, "day": "Fri" },
+      { "date": "2026-11-04", "minutes": 50, "day": "Sat" },
+      { "date": "2026-11-05", "minutes": 50, "day": "Sun" }
+    ],
+    "syllabusCompletion": [
+      { "subjectId": "sub-cs-101", "name": "Data Structures & Algorithms", "color": "#6366f1", "percent": 78 },
+      { "subjectId": "sub-cs-102", "name": "Database Management Systems", "color": "#10b981", "percent": 64 },
+      { "subjectId": "sub-cs-103", "name": "Computer Networks", "color": "#f59e0b", "percent": 45 }
+    ],
+    "completionRate": 82,
+    "streak": {
+      "current": 7,
+      "longest": 12
+    }
+  }
+}
+

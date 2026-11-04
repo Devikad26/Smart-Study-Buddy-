@@ -1,18 +1,67 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
     --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+    /* Skymetrics Design Tokens - Light Theme */
+    --color-canvas: #eceef2;
+    --color-container: #ffffff;
+    --color-card: #ffffff;
+    --color-card-subtle: #f9fafb;
+    --color-border: rgba(0, 0, 0, 0.06);
+    --color-border-subtle: rgba(0, 0, 0, 0.04);
+    
+    --color-text-title: #2b303a;
+    --color-text-primary: #1e2229;
+    --color-text-secondary: #5e6676;
+    --color-text-muted: #8b93a3;
+    
+    --color-accent-green: #4caf7a;
+    --color-accent-green-hover: #439d6d;
+    --color-accent-green-bg: #ebf7f0;
+    --color-accent-green-text: #2e7d52;
+    
+    --color-danger-red: #eb5757;
+    --color-danger-red-bg: #fdeeee;
+    --color-danger-red-text: #c53030;
   }
-  
+
+  .dark {
+    /* Skymetrics Design Tokens - Dark Theme */
+    --color-canvas: #0b0d11;
+    --color-container: #13161c;
+    --color-card: #191d24;
+    --color-card-subtle: #21252f;
+    --color-border: rgba(255, 255, 255, 0.07);
+    --color-border-subtle: rgba(255, 255, 255, 0.04);
+    
+    --color-text-title: #f3f4f6;
+    --color-text-primary: #e5e7eb;
+    --color-text-secondary: #9ca3af;
+    --color-text-muted: #6b7280;
+    
+    --color-accent-green: #4caf7a;
+    --color-accent-green-hover: #5dbd88;
+    --color-accent-green-bg: rgba(76, 175, 122, 0.16);
+    --color-accent-green-text: #6fcf97;
+    
+    --color-danger-red: #f87171;
+    --color-danger-red-bg: rgba(239, 68, 68, 0.16);
+    --color-danger-red-text: #fca5a5;
+  }
+
   body {
     font-family: var(--font-sans);
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #0b0f19;
-    color: #f1f5f9;
+    background-color: var(--color-canvas);
+    color: var(--color-text-primary);
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.25s ease, color 0.25s ease;
   }
 
   #root {
@@ -20,38 +69,39 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* Accessibility: Prefers reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
-/* Glassmorphism helpers */
-.glass-panel {
-  background: rgba(17, 24, 39, 0.75);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+/* Skymetrics Soft Shadow & Card Elevation */
+.app-container-shadow {
+  box-shadow: 0 10px 30px -4px rgba(18, 24, 38, 0.06), 0 4px 12px -2px rgba(18, 24, 38, 0.03);
 }
 
-.glass-panel-hover {
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.glass-panel-hover:hover {
-  background: rgba(24, 33, 53, 0.85);
-  border-color: rgba(99, 102, 241, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px -10px rgba(99, 102, 241, 0.2);
+.skymetrics-card-shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 2px -1px rgba(0, 0, 0, 0.02);
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.2);
+  background: rgba(148, 163, 184, 0.25);
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.4);
+  background: rgba(148, 163, 184, 0.45);
 }
