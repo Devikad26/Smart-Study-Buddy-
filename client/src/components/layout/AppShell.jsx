@@ -12,7 +12,7 @@ export default function AppShell() {
     <div className="min-h-screen bg-[#eceef2] dark:bg-[#0b0d11] p-2 sm:p-3.5 lg:p-5 flex flex-col font-sans transition-colors duration-250">
       {/* Skymetrics Main App Container: 28-32px rounded white card with soft shadow */}
       <div className="max-w-[1600px] w-full mx-auto flex-1 rounded-[24px] sm:rounded-[28px] lg:rounded-[32px] bg-white dark:bg-[#13161c] border border-black/[0.05] dark:border-white/[0.06] app-container-shadow overflow-hidden flex flex-col lg:flex-row min-h-[calc(100vh-1rem)] sm:min-h-[calc(100vh-1.75rem)] lg:min-h-[calc(100vh-2.5rem)]">
-        
+
         {/* Mobile Top Header */}
         <div className="lg:hidden flex items-center justify-between px-4 py-3 border-b border-black/[0.05] dark:border-white/[0.06] bg-white dark:bg-[#13161c]">
           <div className="flex items-center gap-2">
